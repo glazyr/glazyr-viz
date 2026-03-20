@@ -35,7 +35,7 @@ node skills/glazyr-viz/scripts/showcase.js
 ### Pricing (Launch Tiers)
 | Tier | Frames | Price |
 | :--- | :--- | :--- |
-| **Free** | **5,000** | **$0** |
+| **Free** | **2,500** | **$0** |
 | **Developer** | 100,000 | $3 |
 | **Professional** | 500,000 | $15 |
 
