@@ -1,15 +1,17 @@
-# Glazyr Viz: High-Performance Vision for Agents 🛸
+# Glazyr Viz: High-Speed Vision SDK 🚀
 
-Ditch the screenshot dial-up. **Glazyr Viz** is a high-throughput, low-latency visual cortex for the OpenClaw ecosystem. By bypassing heavy image serialization and pulling directly from the Chromium frame buffer, we provide agents with **Zero-Copy Vision** for real-time perception.
+Ditch the screenshot loop. **Glazyr Viz** is a high-performance Chromium fork that provides agents with **Zero-Copy Vision**—direct, raw memory access to the frame buffer for sub-10ms perception.
 
-### Why This Exists
-Standard agents are slow and expensive. They capture full-page screenshots, encode them to Base64, and send them to LLMs — consuming thousands of tokens per step. **Glazyr Viz** reduces this overhead by **99%**, delivering structured UI metadata and visual deltas in milliseconds.
+### 🎯 Real-World Use Cases
+- **High-Density Data Extraction**: Navigating complex tables, Canvas-based charts, and WebGL interfaces where DOM scrapers fail.
+- **Latency-Critical Automation**: Executing multi-step workflows (checkout bots, form filling) at human or super-human speeds.
+- **Large-Scale Scraping**: Reducing API tokens by 99%, allowing for thousands of perception cycles at a fraction of the cost.
+- **Anti-Bot Resilience**: Interacting with raw coordinates to bypass detection systems that flag standard WebDriver behavior.
 
-### ⚡ Performance-First Architecture
-- **7.35ms Latency:** Sub-10ms perception floor via the `vision.json` schema.
-- **99% Token Savings:** 12-16 tokens per frame vs. the standard 1,200+.
+### ⚡ Performance Floor
+- **7.35ms Latency:** Sub-10ms frame-to-data conversion floor.
+- **99% Token Savings:** 12-16 tokens per perception cycle via the `vision.json` schema.
 - **Zero-Jitter:** Synchronous frame access directly from the Chromium Viz subsystem.
-- **Cloud-Isolated:** All heavy rendering happens on GCP "Big Iron" nodes (NVIDIA L4 GPUs).
 
 ### Installation
 ```bash
