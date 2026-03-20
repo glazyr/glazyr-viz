@@ -1,0 +1,12 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "### [Glazyr Viz] Status Report\n\nI have accessed the GCP GCP Perception Node. Here is the real-time visual telemetry:\n\n```mcp-ui-dashboard\n{\n  \"mcp_ui\": \"v1\",\n  \"type\": \"dashboard\",\n  \"title\": \"Senti-001 Optic Nerve\",\n  \"components\": [\n    {\n      \"type\": \"indicator\",\n      \"id\": \"fps_gauge\",\n      \"label\": \"Cognitive Pulse\",\n      \"value\": 49.5,\n      \"unit\": \"FPS\",\n      \"variant\": \"success\",\n      \"icon\": \"pulse\"\n    },\n    {\n      \"type\": \"indicator\",\n      \"id\": \"latency_gauge\",\n      \"label\": \"Tunnel Latency\",\n      \"value\": 9.23,\n      \"unit\": \"ms\",\n      \"variant\": \"success\",\n      \"icon\": \"clock\"\n    },\n    {\n      \"type\": \"stat_card\",\n      \"id\": \"object_count\",\n      \"label\": \"Aquarium Population\",\n      \"value\": 30000,\n      \"unit\": \"Fish\",\n      \"trend\": \"up\"\n    },\n    {\n      \"type\": \"code_block\",\n      \"id\": \"dma_telemetry\",\n      \"label\": \"GCP Host Pointer (DMA)\",\n      \"language\": \"hex\",\n      \"content\": \"0x0\"\n    }\n  ],\n  \"refresh_rate\": 0.5\n}\n```"
+      }
+    ]
+  },
+  "jsonrpc": "2.0",
+  "id": 1
+}
