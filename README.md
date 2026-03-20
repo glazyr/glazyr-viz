@@ -41,4 +41,4 @@ _Get your API key at [glazyr.com/dashboard](https://glazyr.com/dashboard)._
 
 ---
 **Build fast. Stop serializing.**
-_Built by MAGNETAR SENTIENT L.L.C. for the SOTA PeerPush launch._
+_Built by MAGNETAR SENTIENT L.L.C. // V1.0.0 General Release_
